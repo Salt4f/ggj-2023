@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6203080909613567689}
   - component: {fileID: 1379931446231044988}
   m_Layer: 0
-  m_Name: acorn
+  m_Name: acorn 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,7 +172,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5477977776245455539}
-  m_Mesh: {fileID: 7648665362807402327, guid: 5980688c40933bf4089d24b5c2216b71, type: 3}
+  m_Mesh: {fileID: 7648665362807402327, guid: 5891be2cdda106647b22eff191dbcb86, type: 3}
 --- !u!23 &8576836830870675654
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -193,7 +193,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: df1f6f1460327e44396f28dfb1856958, type: 2}
+  - {fileID: 2100000, guid: 7b78b0075bd059a4eaffac048dafa985, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
