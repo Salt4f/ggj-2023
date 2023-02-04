@@ -14,7 +14,6 @@ public class CircleObstacleGenerator : MonoBehaviour
 
     public uint[] chancesToNotSpawn = { 0, 10, 20, 30, 100 };
 
-    [SerializeField]
     private uint obstaclesInsertedInARow;
     private float currentRotation;
 

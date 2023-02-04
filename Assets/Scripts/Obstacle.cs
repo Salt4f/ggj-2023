@@ -7,8 +7,13 @@ public class Obstacle : MonoBehaviour
     private int maxRotations;
     private bool setToDestroy;
 
+    public Vector3 initialRotation;
+    public Vector3 initialPosition;
+
     private void Awake()
     {
+        transform.rotation *= Quaternion.Euler(initialRotation);
+        transform.position += initialPosition;
         GameManager.Instance.obstacles.Add(this);
     }
 

@@ -748,7 +748,7 @@ MeshCollider:
   m_GameObject: {fileID: 1631628271}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -850,8 +850,10 @@ MonoBehaviour:
   obstaclesPrefabs:
   - {fileID: 2410425399178249364, guid: b66e08d755c2dda439f65543d6612b46, type: 3}
   - {fileID: 1144663993623717565, guid: 0be00d1bdaf2fab4eaafa0e693b37285, type: 3}
-  spawnPoint: {x: 3, y: 0}
-  obstaclesPerTurn: 6
+  spawnPoint: {x: 0, y: 3}
+  obstaclesPerTurn: 36
+  stepRotation: 10
+  chancesToNotSpawn: 140000001e0000002800000064000000
 --- !u!4 &1765975089
 Transform:
   m_ObjectHideFlags: 0
