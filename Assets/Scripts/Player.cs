@@ -5,8 +5,11 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Animator anim;
+    private AudioSource _audio;
 
     public ParticleSystem[] featherParticles;
+    public AudioClip jumpSFX;
+    public AudioClip deathSFX;
 
     private uint totalSteps;
 
@@ -16,12 +19,14 @@ public class Player : MonoBehaviour
         gm.player = this;
         gm.Live();
         anim = GetComponent<Animator>();
+        _audio = GetComponent<AudioSource>();
         totalSteps = 0;
     }
 
     public void Rotate()
     {
         anim.SetTrigger("trigger");
+        _audio.PlayOneShot(jumpSFX);
         GameManager.Instance.ui.SetSteps(++totalSteps);
     }
 
@@ -32,6 +37,7 @@ public class Player : MonoBehaviour
         {
             ps.Play();
         }
+        _audio.PlayOneShot(deathSFX);
         GameManager.Instance.Die();
     }
 

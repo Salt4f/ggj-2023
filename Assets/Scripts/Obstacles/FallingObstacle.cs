@@ -6,16 +6,19 @@ using Cinemachine;
 public class FallingObstacle : Obstacle
 {
     private Animator anim;
+    private AudioSource _audio;
     private CinemachineImpulseSource source;
     private bool isFalling;
 
     public Collider triggerCollider;
     public string fallStateName = "Fall";
+    public AudioClip groundSFX;
 
     private void Start()
     {
         isFalling = false;
         anim = GetComponent<Animator>();
+        _audio = GetComponent<AudioSource>();
         source = GetComponent<CinemachineImpulseSource>();
     }
 
@@ -28,7 +31,7 @@ public class FallingObstacle : Obstacle
         {
             isFalling = false;
             source.GenerateImpulse();
-            //Particles
+            _audio.PlayOneShot(groundSFX);
         }
     }
 
