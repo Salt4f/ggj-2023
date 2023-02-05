@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 12adef70b1bf4b043b501bc0f5967cae
+guid: f2f11b60983d3bc4baf341883d359942
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,8 +9,9 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - BellaFree
-  fallbackFontReferences: []
+  - Constantia
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 21bfb4050ad89744cb5002375d1c0054, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
