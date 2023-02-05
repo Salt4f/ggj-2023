@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Serialization;
@@ -15,17 +16,34 @@ public class GameManager : MonoBehaviour
     public Player player;
     public UIManager ui;
 
+    private bool rotateInput;
+    private bool isDead;
+
     public bool CanRotate { get; set; }
 
     private void Awake()
     {
-        if (Instance != null) Destroy(gameObject);
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
 #if UNITY_EDITOR
         Application.targetFrameRate = 144;
 #endif
         Instance = this;
-        DontDestroyOnLoad(gameObject);
         obstacles = new List<Obstacle>();
+        isDead = false;
+        DontDestroyOnLoad(gameObject);
+    }
+
+    private void Update()
+    {
+        if (isDead) return;
+        if (rotateInput && CanRotate)
+        {
+            Rotate();
+        }
     }
 
     public void Rotate()
@@ -33,6 +51,17 @@ public class GameManager : MonoBehaviour
         player.Rotate();
         cog.Rotate();
         decorationCog.Rotate();
+    }
+
+    public void Live()
+    {
+        isDead = false;
+    }
+
+    public void Die()
+    {
+        isDead = true;
+        ui.OpenDeadPanel();
     }
 
     public void NotifyObstacles()
@@ -45,7 +74,8 @@ public class GameManager : MonoBehaviour
 
     public void OnRotate(InputAction.CallbackContext ctx)
     {
-        if (ctx.performed && CanRotate) Rotate();
+        if (ctx.performed) rotateInput = true;
+        else if (ctx.canceled) rotateInput = false;
     }
 
 }
