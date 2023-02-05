@@ -49,8 +49,8 @@ public class GameManager : MonoBehaviour
     public void Rotate()
     {
         player.Rotate();
-        cog.Rotate();
         decorationCog.Rotate();
+        cog.Rotate();
     }
 
     public void Live()

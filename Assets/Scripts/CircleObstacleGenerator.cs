@@ -30,7 +30,7 @@ public class CircleObstacleGenerator : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!GameManager.Instance.CanRotate)
+        if (targetRotation.eulerAngles.y != transform.rotation.eulerAngles.y)
         {
             // Try to replace with Quaternion.Lerp
             var delta = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime);
