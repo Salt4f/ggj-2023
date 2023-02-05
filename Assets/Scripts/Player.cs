@@ -12,7 +12,9 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        GameManager.Instance.player = this;
+        var gm = GameManager.Instance;
+        gm.player = this;
+        gm.Live();
         anim = GetComponent<Animator>();
         totalSteps = 0;
     }
@@ -25,13 +27,12 @@ public class Player : MonoBehaviour
 
     private void Death()
     {
-        // START DEATH ANIMATION
-        Debug.Log("Death");
         anim.SetTrigger("death");
         foreach (var ps in featherParticles)
         {
             ps.Play();
         }
+        GameManager.Instance.Die();
     }
 
     private void OnTriggerEnter(Collider other)
