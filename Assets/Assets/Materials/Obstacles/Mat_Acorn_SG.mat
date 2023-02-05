@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mat_Checkpoint
+  m_Name: Mat_Acorn_SG
   m_Shader: {fileID: -6465566751694194690, guid: f39190eb373cc5148851cf47ce63fc5b, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -25,7 +25,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseTex:
-        m_Texture: {fileID: 2800000, guid: 463f2e6611a68fc459149e15e6ff8cea, type: 3}
+        m_Texture: {fileID: 2800000, guid: b8c86510c07a0784f83aaf7986653fab, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -45,7 +45,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 463f2e6611a68fc459149e15e6ff8cea, type: 3}
+        m_Texture: {fileID: 2800000, guid: b8c86510c07a0784f83aaf7986653fab, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
