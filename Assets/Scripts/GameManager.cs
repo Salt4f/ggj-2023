@@ -19,6 +19,9 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         if (Instance != null) Destroy(gameObject);
+#if UNITY_EDITOR
+        Application.targetFrameRate = 144;
+#endif
         Instance = this;
         DontDestroyOnLoad(gameObject);
         obstacles = new List<Obstacle>();

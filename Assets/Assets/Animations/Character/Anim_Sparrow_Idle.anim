@@ -38,7 +38,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Leg_Top_L/Leg_Bottom_L/Foot_L
+    path: Sparrow/Leg_Top_L/Leg_Bottom_L/Foot_L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -63,7 +63,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Leg_Top_R/Leg_Bottom_R/Foot_R
+    path: Sparrow/Leg_Top_R/Leg_Bottom_R/Foot_R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -106,7 +106,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Head
+    path: Sparrow/Head
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -149,7 +149,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Tail
+    path: Sparrow/Tail
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -192,7 +192,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Wing_L
+    path: Sparrow/Wing_L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -235,7 +235,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Wing_R
+    path: Sparrow/Wing_R
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -270,7 +270,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Leg_Top_R/Leg_Bottom_R/Foot_R
+    path: Sparrow/Leg_Top_R/Leg_Bottom_R/Foot_R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -304,7 +304,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Leg_Top_L/Leg_Bottom_L/Foot_L
+    path: Sparrow/Leg_Top_L/Leg_Bottom_L/Foot_L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -338,7 +338,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: 
+    path: Sparrow
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -372,7 +372,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Leg_Top_R
+    path: Sparrow/Leg_Top_R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -406,7 +406,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Leg_Top_L
+    path: Sparrow/Leg_Top_L
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
@@ -541,7 +541,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Leg_Top_L/Leg_Bottom_L/Foot_L
+    path: Sparrow/Leg_Top_L/Leg_Bottom_L/Foot_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -569,7 +569,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Leg_Top_L/Leg_Bottom_L/Foot_L
+    path: Sparrow/Leg_Top_L/Leg_Bottom_L/Foot_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -597,7 +597,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Leg_Top_L/Leg_Bottom_L/Foot_L
+    path: Sparrow/Leg_Top_L/Leg_Bottom_L/Foot_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -625,7 +625,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Leg_Top_R/Leg_Bottom_R/Foot_R
+    path: Sparrow/Leg_Top_R/Leg_Bottom_R/Foot_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -653,7 +653,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Leg_Top_R/Leg_Bottom_R/Foot_R
+    path: Sparrow/Leg_Top_R/Leg_Bottom_R/Foot_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -681,7 +681,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Leg_Top_R/Leg_Bottom_R/Foot_R
+    path: Sparrow/Leg_Top_R/Leg_Bottom_R/Foot_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -727,7 +727,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Head
+    path: Sparrow/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -773,7 +773,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Head
+    path: Sparrow/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -819,7 +819,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Head
+    path: Sparrow/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -865,7 +865,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Tail
+    path: Sparrow/Tail
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -902,7 +902,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Tail
+    path: Sparrow/Tail
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -939,7 +939,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Tail
+    path: Sparrow/Tail
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -985,7 +985,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Wing_L
+    path: Sparrow/Wing_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1031,7 +1031,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Wing_L
+    path: Sparrow/Wing_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1077,7 +1077,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Wing_L
+    path: Sparrow/Wing_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1123,7 +1123,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Wing_R
+    path: Sparrow/Wing_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1169,7 +1169,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Wing_R
+    path: Sparrow/Wing_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1215,7 +1215,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Wing_R
+    path: Sparrow/Wing_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1252,7 +1252,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Leg_Top_R/Leg_Bottom_R/Foot_R
+    path: Sparrow/Leg_Top_R/Leg_Bottom_R/Foot_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1289,7 +1289,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Leg_Top_R/Leg_Bottom_R/Foot_R
+    path: Sparrow/Leg_Top_R/Leg_Bottom_R/Foot_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1326,7 +1326,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Leg_Top_R/Leg_Bottom_R/Foot_R
+    path: Sparrow/Leg_Top_R/Leg_Bottom_R/Foot_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1363,7 +1363,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Leg_Top_L/Leg_Bottom_L/Foot_L
+    path: Sparrow/Leg_Top_L/Leg_Bottom_L/Foot_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1400,7 +1400,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Leg_Top_L/Leg_Bottom_L/Foot_L
+    path: Sparrow/Leg_Top_L/Leg_Bottom_L/Foot_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1437,7 +1437,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Leg_Top_L/Leg_Bottom_L/Foot_L
+    path: Sparrow/Leg_Top_L/Leg_Bottom_L/Foot_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1474,7 +1474,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: 
+    path: Sparrow
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1511,7 +1511,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: 
+    path: Sparrow
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1548,7 +1548,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: 
+    path: Sparrow
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1585,7 +1585,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Leg_Top_R
+    path: Sparrow/Leg_Top_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1622,7 +1622,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Leg_Top_R
+    path: Sparrow/Leg_Top_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1659,7 +1659,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Leg_Top_R
+    path: Sparrow/Leg_Top_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1696,7 +1696,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Leg_Top_L
+    path: Sparrow/Leg_Top_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1733,7 +1733,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Leg_Top_L
+    path: Sparrow/Leg_Top_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1770,7 +1770,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Leg_Top_L
+    path: Sparrow/Leg_Top_L
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -1781,7 +1781,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Tail
+    path: Sparrow/Tail
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1791,7 +1791,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Tail
+    path: Sparrow/Tail
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1801,7 +1801,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Tail
+    path: Sparrow/Tail
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1811,7 +1811,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Leg_Top_L/Leg_Bottom_L/Foot_L
+    path: Sparrow/Leg_Top_L/Leg_Bottom_L/Foot_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1821,7 +1821,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Leg_Top_L/Leg_Bottom_L/Foot_L
+    path: Sparrow/Leg_Top_L/Leg_Bottom_L/Foot_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1831,7 +1831,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Leg_Top_L/Leg_Bottom_L/Foot_L
+    path: Sparrow/Leg_Top_L/Leg_Bottom_L/Foot_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1841,7 +1841,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Leg_Top_R/Leg_Bottom_R/Foot_R
+    path: Sparrow/Leg_Top_R/Leg_Bottom_R/Foot_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1851,7 +1851,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Leg_Top_R/Leg_Bottom_R/Foot_R
+    path: Sparrow/Leg_Top_R/Leg_Bottom_R/Foot_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1861,7 +1861,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Leg_Top_R/Leg_Bottom_R/Foot_R
+    path: Sparrow/Leg_Top_R/Leg_Bottom_R/Foot_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1871,7 +1871,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Wing_L
+    path: Sparrow/Wing_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1881,7 +1881,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Wing_L
+    path: Sparrow/Wing_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1891,7 +1891,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Wing_L
+    path: Sparrow/Wing_L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1901,7 +1901,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Wing_R
+    path: Sparrow/Wing_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1911,7 +1911,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Wing_R
+    path: Sparrow/Wing_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1921,7 +1921,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Wing_R
+    path: Sparrow/Wing_R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1931,7 +1931,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Head
+    path: Sparrow/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1941,7 +1941,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Head
+    path: Sparrow/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1951,7 +1951,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Head
+    path: Sparrow/Head
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
