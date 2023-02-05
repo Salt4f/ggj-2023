@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3120588092991321409}
+  - component: {fileID: 6551836868759005256}
   m_Layer: 0
   m_Name: Decor_Branch_down_left_00
   m_TagString: Untagged
@@ -32,6 +33,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6551836868759005256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7100553301911723074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5727eb5a3a23926468a94b87adb8b413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialRotation: {x: -210, y: 180, z: -90}
+  initialPosition: {x: 0, y: 0, z: 0}
 --- !u!1001 &2846590370381544468
 PrefabInstance:
   m_ObjectHideFlags: 0
