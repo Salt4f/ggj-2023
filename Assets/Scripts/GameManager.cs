@@ -11,6 +11,10 @@ public class GameManager : MonoBehaviour
 
     public IList<Obstacle> obstacles;
     public CircleObstacleGenerator cog;
+    public Player player;
+    public UIManager ui;
+
+    public bool CanRotate { get; set; }
 
     private void Awake()
     {
@@ -22,6 +26,7 @@ public class GameManager : MonoBehaviour
 
     public void Rotate()
     {
+        player.Rotate();
         cog.Rotate();
     }
 
@@ -35,7 +40,7 @@ public class GameManager : MonoBehaviour
 
     public void OnRotate(InputAction.CallbackContext ctx)
     {
-        if (ctx.performed) Rotate();
+        if (ctx.performed && CanRotate) Rotate();
     }
 
 }
