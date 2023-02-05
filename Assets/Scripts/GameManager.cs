@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
 
     public IList<Obstacle> obstacles;
+    public CircleObstacleGenerator decorationCog;
     public CircleObstacleGenerator cog;
     public Player player;
     public UIManager ui;
@@ -31,6 +32,7 @@ public class GameManager : MonoBehaviour
     {
         player.Rotate();
         cog.Rotate();
+        decorationCog.Rotate();
     }
 
     public void NotifyObstacles()
