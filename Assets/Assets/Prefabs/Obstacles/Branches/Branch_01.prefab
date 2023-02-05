@@ -10,9 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 193373251103896420}
   - component: {fileID: 193373251103896423}
+  - component: {fileID: -7069762511628363104}
+  - component: {fileID: 4826751777797120411}
   m_Layer: 0
   m_Name: Branch_01
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53,6 +55,33 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &-7069762511628363104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193373251103896421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5727eb5a3a23926468a94b87adb8b413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialRotation: {x: 0, y: 0, z: 0}
+  initialPosition: {x: 0, y: 0, z: 0}
+--- !u!65 &4826751777797120411
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193373251103896421}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.52401996, z: 0.06171629}
+  m_Center: {x: 0, y: 0.20690817, z: -0.0009713024}
 --- !u!1001 &193373252170006327
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -2487,6 +2487,7 @@ MonoBehaviour:
   obstaclesPrefabs:
   - {fileID: 2410425399178249364, guid: b66e08d755c2dda439f65543d6612b46, type: 3}
   - {fileID: 6748228665547979686, guid: b26f35ed79bd2f04db61aae87807e5e3, type: 3}
+  - {fileID: 4643201862634956241, guid: 4b167419f14b2904eaeae17f3308c9b5, type: 3}
   spawnPoint: {x: 0, y: 3}
   obstaclesPerTurn: 36
   stepRotation: 10
