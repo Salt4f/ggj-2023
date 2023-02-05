@@ -17,11 +17,10 @@ public class CircleObstacleGenerator : MonoBehaviour
 
     private uint obstaclesInsertedInARow;
     private Quaternion targetRotation;
-    private bool canRotate;
 
     private void Awake()
     {
-        canRotate = true;
+        GameManager.Instance.CanRotate = true;
         obstaclesInsertedInARow = 0;
         var gm = GameManager.Instance;
         gm.cog = this;
@@ -29,13 +28,13 @@ public class CircleObstacleGenerator : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!canRotate)
+        if (!GameManager.Instance.CanRotate)
         {
             // Try to replace with Quaternion.Lerp
             var delta = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime);
             if (delta.eulerAngles.y == targetRotation.eulerAngles.y)
             {
-                canRotate = true;
+                GameManager.Instance.CanRotate = true;
                 GenerateObstacle();
             }
             transform.rotation = delta;
@@ -44,8 +43,7 @@ public class CircleObstacleGenerator : MonoBehaviour
 
     public void Rotate()
     {
-        if (!canRotate) return;
-        canRotate = false;
+        GameManager.Instance.CanRotate = false;
         targetRotation = transform.rotation * Quaternion.Euler(0, stepRotation, 0);
     }
 
