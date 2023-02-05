@@ -19,6 +19,9 @@ public class GameManager : MonoBehaviour
     private bool rotateInput;
     private bool isDead;
 
+    private float timer;
+    private readonly float timeToDeath = 1f;
+
     public bool CanRotate { get; set; }
 
     private void Awake()
@@ -39,7 +42,16 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (isDead) return;
+        if (isDead) {
+            if (timer > 0)
+            {
+                timer -= Time.deltaTime;
+                if (timer <= 0)
+                {
+                    ui.OpenDeadPanel();
+                }
+            }
+        }
         if (rotateInput && CanRotate)
         {
             Rotate();
@@ -61,7 +73,7 @@ public class GameManager : MonoBehaviour
     public void Die()
     {
         isDead = true;
-        ui.OpenDeadPanel();
+        timer = timeToDeath;
     }
 
     public void NotifyObstacles()
