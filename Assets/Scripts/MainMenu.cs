@@ -16,6 +16,10 @@ public class MainMenu : MonoBehaviour
 
     private void Awake()
     {
+        if (GameManager.Instance != null)
+        {
+            Destroy(GameManager.Instance.gameObject);
+        }
         sceneToLoad = -1;
     }
 
