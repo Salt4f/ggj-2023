@@ -1374,7 +1374,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bef49f4e385439f419df927965a8b961, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 403bb123c34c2c749a0259f59b2e0ad2, type: 2}
+      objectReference: {fileID: 2100000, guid: b3e101a53932b9742b246ed7df887e85, type: 2}
     - target: {fileID: 919132149155446097, guid: bef49f4e385439f419df927965a8b961, type: 3}
       propertyPath: m_Name
       value: Tree_Scenario_00
@@ -1773,9 +1773,21 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1918159946013648217, guid: 22fc838f5716a4248acfb4d6c5886050, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918159946013648217, guid: 22fc838f5716a4248acfb4d6c5886050, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918159946013648217, guid: 22fc838f5716a4248acfb4d6c5886050, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.73
       objectReference: {fileID: 0}
+    - target: {fileID: 1918159946013648223, guid: 22fc838f5716a4248acfb4d6c5886050, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 671c7d796e613ad41bee6783d2cbc877, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22fc838f5716a4248acfb4d6c5886050, type: 3}
 --- !u!1 &880905303
@@ -2070,7 +2082,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 92af8c8af3739bf408234cf57bcdc3f7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c785ccf19b172634cb563c62b772db0b, type: 2}
+      objectReference: {fileID: 2100000, guid: e8184f6317376cb4a96133ccfc4da10f, type: 2}
     - target: {fileID: 919132149155446097, guid: 92af8c8af3739bf408234cf57bcdc3f7, type: 3}
       propertyPath: m_Name
       value: Platform_Scenario_00
